@@ -7,6 +7,15 @@
 
 }
 
+.textHead{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #ffffff;
+    
+    
+}
+
 .icon1{
     top: 119px;
     width: 100%;
@@ -21,7 +30,8 @@
     opacity: 80%;
     justify-content: center;
     position: absolute;
-    top: 313px;
+    top: 260px;
+    left: 21%;
 
 }
 
@@ -40,15 +50,46 @@ p1{
     top: 130px;
 }
 
-.textHead{
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    color: #ffffff;
-    
-    
+.container2{
+    padding-top: 109px;
+    padding-left: 150px;
+    padding-bottom: 91px;
 }
 
+.icon2{
+    
+    height: 416px;
+    width: 369px;
+}
+
+p2{
+    font-size: 35px;
+
+}
+
+p3{
+    font-size: 16px;
+}
+
+.containerIcon{
+    display: flex;
+    justify-content: space;
+}
+
+.icon3{
+    width: 200px;
+    height: 153px;
+}
+
+.icon4{
+    width: 200px;
+    height: 193px;
+}
+
+.icon5{
+    width: 200px;
+    height: 175px;
+}
 
 
 
