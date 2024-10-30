@@ -1,3 +1,13 @@
+@font-face{
+    font-family: dosis;
+    src: url(../fonts/Dosis-VariableFont_wght.ttf); 
+}
+
+.dosis-font{
+    font-family: 'dosis', sans-serif;
+}
+
+
 .container1{
     display: flex;
     justify-content: space-evenly;
@@ -9,7 +19,7 @@
 
 .textHead{
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'dosis', sans-serif;
     font-size: 20px;
     color: #ffffff;
     
@@ -30,7 +40,7 @@
     opacity: 80%;
     justify-content: center;
     position: absolute;
-    top: 260px;
+    top: 130px;
     left: 21%;
 
 }
@@ -54,12 +64,14 @@ p1{
     padding-top: 109px;
     padding-left: 150px;
     padding-bottom: 91px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon2{
     
     height: 416px;
-    width: 369px;
+    width: 330px;
 }
 
 p2{
@@ -90,6 +102,48 @@ p3{
     width: 200px;
     height: 175px;
 }
+
+.bg-image{
+    
+    width: 100%;
+    height: 738px;
+}
+
+.header-dosis{
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.container-fluid{
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.top-center{
+    position: absolute;
+    top: 8px;
+    left: 47%;
+    
+}
+
+.headerB-dosis{
+    font-size: 35px;
+    color: #000324;
+}
+
+.card-fluid{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    left: 25%;
+}
+
+
+
+
 
 
 
