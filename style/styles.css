@@ -7,6 +7,10 @@
     font-family: 'dosis', sans-serif;
 }
 
+.text-color{
+    color: #000324;
+}
+
 
 .container1{
     display: flex;
@@ -53,6 +57,11 @@ h1{
     
 }
 
+h5{
+    font-size: 25px;
+    font-family: 'dosis', sans-serif;
+}
+
 p1{
     font-size: 16px;
     color: #E5FEFF;
@@ -82,6 +91,13 @@ p2{
 p3{
     font-size: 16px;
 }
+
+p4{
+    font-size: 25px;
+    font-family: 'dosis', sans-serif;
+}
+
+
 
 .containerIcon{
     display: flex;
@@ -138,12 +154,31 @@ p3{
     display: flex;
     justify-content: center;
     gap: 15px;
-    left: 25%;
+    left: 18%;
+    
 }
 
+.width{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+}
 
+.btn-primary{
+    background-color: #004CC7;
+    border-radius: 0;
+}
 
+.icon6{
+    display: flex;
+    width: 561px;
+    height: 234px;
+}
 
+.text-blue{
+    color: #1F51A8;
+}
 
 
 
