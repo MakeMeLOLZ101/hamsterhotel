@@ -3,12 +3,22 @@
     src: url(../fonts/Dosis-VariableFont_wght.ttf); 
 }
 
+.justify-flex{
+    position: absolute;
+    right: 40%;
+    
+}
+
 .dosis-font{
     font-family: 'dosis', sans-serif;
 }
 
 .text-color{
     color: #000324;
+}
+
+.text-color2{
+    color: #FFFFFF;
 }
 
 
@@ -21,12 +31,40 @@
 
 }
 
+
+
+.container2{
+    padding-top: 109px;
+    padding-left: 200px;
+    padding-bottom: 91px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 120px;
+    background-color: #000324;
+
+}
+
+.container5{
+    display: flex;
+    justify-content: center;
+
+    align-items: space-evenly;
+}
+
 .textHead{
     text-align: left;
     font-family: 'dosis', sans-serif;
     font-size: 20px;
     color: #ffffff;
-    
+    display: flex;
+    align-items: end;
     
 }
 
@@ -34,6 +72,46 @@
     top: 119px;
     width: 100%;
     height: 500px;
+}
+
+.icon2{
+    
+    height: 416px;
+    width: 330px;
+}
+
+.icon3{
+    width: 200px;
+    height: 153px;
+}
+
+.icon4{
+    width: 200px;
+    height: 193px;
+}
+
+.icon5{
+    width: 200px;
+    height: 175px;
+}
+
+.icon6{
+    display: flex;
+    width: 100%;
+    height: 234px;
+}
+
+.icon7{
+    width: 100%;
+    height: 414px;
+}
+
+.icon8{
+    position: absolute;
+    right: 45%;
+    top: 269rem;
+    width: 143px;
+    height: 100px;
 }
 
 .logo{
@@ -47,6 +125,24 @@
     top: 130px;
     left: 21%;
 
+}
+
+.logo2{
+    background-color: #000324;
+    width: 2000px;
+    height: 250px;
+    
+}
+
+.logo3{
+    background-color: #000324;
+    width: 100%;
+    height: 300px;
+    margin-top: 22rem;
+    padding-top: 1px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 h1{
@@ -69,21 +165,6 @@ p1{
     top: 130px;
 }
 
-.container2{
-    padding-top: 109px;
-    padding-left: 200px;
-    padding-bottom: 91px;
-    padding-right: 200px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.icon2{
-    
-    height: 416px;
-    width: 330px;
-}
-
 p2{
     font-size: 35px;
 
@@ -91,11 +172,26 @@ p2{
 
 p3{
     font-size: 16px;
+    
 }
 
 p4{
     font-size: 25px;
     font-family: 'dosis', sans-serif;
+}
+
+p5{
+    font-size: 20px;
+}
+
+p6{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+p7{
+    font-size: 16px;
+    color: #E5FEFF;
 }
 
 
@@ -105,25 +201,18 @@ p4{
     justify-content: space;
 }
 
-.icon3{
-    width: 200px;
-    height: 153px;
-}
 
-.icon4{
-    width: 200px;
-    height: 193px;
-}
-
-.icon5{
-    width: 200px;
-    height: 175px;
-}
 
 .bg-image{
     
     width: 100%;
     height: 738px;
+}
+
+.bg-image2{
+    
+    width: 100%;
+    height: 548px;
 }
 
 .header-dosis{
@@ -132,6 +221,7 @@ p4{
 }
 
 .container-fluid{
+    display: flex;
     position: relative;
     padding-left: 0;
     padding-right: 0;
@@ -141,6 +231,29 @@ p4{
     position: absolute;
     top: 8px;
     left: 47%;
+    
+}
+
+.top-center2{
+    position: absolute;
+    top: 40px;
+    left: 47%;
+    
+}
+
+.top-center3{
+    display: flex;
+    justify-content: center;
+    left: 26%;
+    align-items: column;
+    
+}
+
+.top-center4{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
     
 }
 
@@ -171,15 +284,102 @@ p4{
     border-radius: 0;
 }
 
-.icon6{
-    display: flex;
-    width: 100%;
-    height: 234px;
-}
+
+
+
 
 .text-blue{
     color: #1F51A8;
 }
+
+.text-place{
+    position: absolute;
+    top: 100px;
+    left: 25%;
+}
+
+.pic-fluid{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    left: 4%;
+    
+}
+
+.pic-fluid2{
+    position: absolute;
+    top: 320px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    left: 3%;
+    
+}
+
+.symbol1{
+    width: 150px;
+    height: 101px;
+}
+
+.symbol2{
+    width: 150px;
+    height: 104px;
+}
+
+.symbol3{
+    width: 100px;
+    height: 115;
+}
+
+.symbol4{
+    width: 155px;
+    height: 110px;
+}
+
+.flex-container{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.flex-container2{
+    display: flex;
+    
+    
+    justify-content: center;
+}
+
+.whitebox{
+    top: 3711px;
+    left: 488px;
+    width: 177px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #7A90D9;
+    opacity: 1;
+}
+
+.btn-size{
+    color: white;
+    background-color: #006EDB;
+    border-color: #000DC7;
+    border: 1px;
+    height: 38px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
