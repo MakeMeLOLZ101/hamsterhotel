@@ -2,6 +2,11 @@
     font-family: dosis;
     src: url(../fonts/Dosis-VariableFont_wght.ttf); 
 }
+right
+.align-end{
+    display: flex;
+    align-items: end;
+}
 
 .justify-flex{
     position: absolute;
@@ -21,7 +26,6 @@
     color: #FFFFFF;
 }
 
-
 .container1{
     display: flex;
     justify-content: space-evenly;
@@ -30,8 +34,6 @@
     background-color: #000324;
 
 }
-
-
 
 .container2{
     padding-top: 109px;
@@ -56,6 +58,13 @@
     justify-content: center;
 
     align-items: space-evenly;
+}
+
+.container-fluid{
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .textHead{
@@ -220,12 +229,7 @@ p7{
     color: #FFFFFF;
 }
 
-.container-fluid{
-    display: flex;
-    position: relative;
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 .top-center{
     position: absolute;
@@ -370,6 +374,41 @@ p7{
     height: 38px;
     width: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
